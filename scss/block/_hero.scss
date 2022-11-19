@@ -1,0 +1,20 @@
+.hero__container{
+    background-image: url(/images/hero-bg.png);
+    mask-repeat: no-repeat;
+    max-width: 1280px;
+    padding: 134px 0 134px 85px;
+}
+.hero__title{
+    font-family: 'Fraunces';
+    max-width: 427px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+.hero__text{
+    @include text(#FEFCF7);
+    max-width: 445px;
+    opacity: 0.8;
+}

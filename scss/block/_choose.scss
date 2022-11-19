@@ -1,0 +1,29 @@
+.choose__container{
+    padding-top: 168px;
+}
+.choose__block{
+    padding: 100px 150px 100px 85px;
+    background-color: #2A3038;
+}
+.choose__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.choose__number-img{
+    margin-top: 67px;
+}
+.choose__title{
+    margin-top: 38px;
+    font-family: 'Fraunces';
+    max-width: 255px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FEFCF7;
+    margin-bottom: 42px;
+}
+.choose__text{
+    @include text(#FEFCF7);
+    max-width: 285px;
+}
